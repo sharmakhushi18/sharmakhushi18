@@ -19,7 +19,7 @@ public class Khushi extends Developer {
 
     String role     = "Java Backend Developer";
     String college  = "LNCT Bhopal — Final Year ECE (2026)";
-    String goal     = "Backend / Full Stack role @ Product Company";
+   
 
     String[] building  = { "Spring Boot APIs", "MySQL schemas", "React frontends" };
     String[] learning  = { "Spring Security", "JWT", "Redis" };
@@ -136,7 +136,6 @@ End-to-end data analysis on 500+ records to identify revenue trends and campaign
 
 <div align="center">
 
-*"I don't just push code — I build systems that work in production."*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sharmakhushi18&color=0077ff&style=flat-square&label=Profile+Views)
 
