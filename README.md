@@ -5,7 +5,7 @@
 ### Java Backend Developer · Spring Boot · REST APIs · Cloud
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/khushissharma)
-[![Portfolio](https://img.shields.io/badge/Portfolio-020b18?style=for-the-badge&logo=github&logoColor=00d4ff)](https://sharmakhushi18.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-020b18?style=for-the-badge&logo=github&logoColor=00d4ff)](https://sharmakhushi18.github.io/portfolio/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sharmakhushi99631@gmail.com)
 
 </div>
