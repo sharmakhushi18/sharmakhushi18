@@ -12,24 +12,23 @@
 
 ---
 
-## 👩‍💻 About Me
+## About Me
 
 ```java
 public class Khushi extends Developer {
 
-    String role     = "Java Backend Developer";
-    String college  = "LNCT Bhopal — Final Year ECE (2026)";
-   
+    String role    = "Java Backend Developer";
+    String college = "LNCT Bhopal — Final Year ECE (2026)";
 
-    String[] building  = { "Spring Boot APIs", "MySQL schemas", "React frontends" };
-    String[] learning  = { "Spring Security", "JWT", "Redis" };
-    String   mantra    = "Don't just learn — build, deploy, repeat.";
+    String[] building = { "Spring Boot APIs", "MySQL schemas", "React frontends" };
+    String[] learning = { "Spring Security", "JWT", "Redis" };
+    String   mantra   = "Don't just learn — build, deploy, repeat.";
 }
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Backend**
 
@@ -63,20 +62,16 @@ public class Khushi extends Developer {
 
 ---
 
-## 🚀 Featured Projects
+## Projects
 
 ### ✈️ Flight Delay Alert & Notification System
-> **Spring Boot 3 · React · MySQL · JPA/Hibernate · Docker** &nbsp;|&nbsp; 🟢 **LIVE**
+> Spring Boot 3 · React · MySQL · JPA/Hibernate · Docker &nbsp;|&nbsp; 🟢 Live
 
-A production-deployed, event-driven backend system that **automatically notifies passengers** the moment their flight status changes — no manual intervention needed.
+Backend system that sends instant alerts to passengers when their flight status changes. Built with transactional integrity — booking, seat allocation, and notification happen atomically or not at all.
 
-| What it does | How |
-|---|---|
-| Auto-alerts all booked passengers on status change | `@Transactional` service layer |
-| Prevents invalid flight transitions | State machine logic |
-| Atomic booking — seat + status + alert together | JPA + Transaction rollback |
-| React dashboard for live flight tracking | REST API + Axios |
-| Deployed with Railway MySQL + Render + Vercel | Docker + Cloud env vars |
+- State machine logic to prevent invalid flight transitions
+- React dashboard for live flight tracking via REST + Axios
+- Deployed on Railway (DB) + Render (API) + Vercel (frontend)
 
 [![Backend Live](https://img.shields.io/badge/Backend-Live-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://flight-delay-alert-api.onrender.com)
 [![Frontend Live](https://img.shields.io/badge/Frontend-Live-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://flight-delay-frontend-seven.vercel.app)
@@ -86,44 +81,35 @@ A production-deployed, event-driven backend system that **automatically notifies
 ---
 
 ### 🛫 Airport Management System
-> **Java · JDBC · MySQL** &nbsp;|&nbsp; Console Application
+> Java · JDBC · MySQL &nbsp;|&nbsp; Console App
 
-Full-featured airport management system with clean layered architecture.
-
-- Complete CRUD for flights, passengers, and bookings
-- DAO pattern with interface-based design for modularity  
-- Duplicate seat booking prevention at database level
-- Prepared statements for SQL injection prevention
+CRUD-based airport management system with a clean DAO pattern. Handles flights, passengers, and bookings — with duplicate seat prevention and prepared statements to avoid SQL injection.
 
 [![Code](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sharmakhushi18/AirportManagementSystem)
 
 ---
 
-### 📊 Sales Performance Analysis & Dashboard
-> **SQL · MySQL · Excel · Power BI**
+### 📊 Sales Performance Analysis
+> SQL · MySQL · Excel · Power BI
 
-End-to-end data analysis on 500+ records to identify revenue trends and campaign performance.
-
-- Advanced SQL queries for CTR, ROAS, and conversion rate analysis
-- Excel Pivot Table dashboard tracking regional and product trends
-- Identified drop-off at proposal stage → actionable optimization insights
+Analyzed 500+ sales records to surface revenue trends and campaign performance. Built pivot dashboards for regional and product tracking — found proposal-stage drop-off and flagged it with data.
 
 [![Code](https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sharmakhushi18/Sales-Performance-Analysis)
 
 ---
 
-## 📜 Certifications
+## Certifications
 
-| Badge | Certification |
+| | |
 |---|---|
-| ☁️ | AWS Academy Graduate — Generative AI Foundations |
+| ☁️ | AWS Academy — Generative AI Foundations |
 | 🌐 | Cisco — CCNA: Enterprise Networking, Security & Automation |
 | ☕ | HackerRank — Java (Basic) |
 | 🗄️ | HackerRank — SQL (Advanced) |
 
 ---
 
-## 📈 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -135,7 +121,6 @@ End-to-end data analysis on 500+ records to identify revenue trends and campaign
 ---
 
 <div align="center">
-
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sharmakhushi18&color=0077ff&style=flat-square&label=Profile+Views)
 
