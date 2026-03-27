@@ -1,8 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077ff,100:00d4ff&height=120&section=header&text=Khushi%20Sharma&fontSize=42&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
-
-### Java Backend Developer · Spring Boot · REST APIs · Cloud
+### Khushi Sharma
+**Java Backend Developer · Spring Boot · REST APIs · Cloud**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/khushissharma)
 [![Portfolio](https://img.shields.io/badge/Portfolio-020b18?style=for-the-badge&logo=github&logoColor=00d4ff)](https://sharmakhushi18.github.io/portfolio/)
@@ -31,7 +30,6 @@ public class Khushi extends Developer {
 ## Tech Stack
 
 **Backend**
-
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
@@ -39,14 +37,12 @@ public class Khushi extends Developer {
 ![REST API](https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 
 **Frontend**
-
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 **Database & DevOps**
-
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
@@ -54,7 +50,6 @@ public class Khushi extends Developer {
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 **Tools**
-
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
@@ -100,30 +95,7 @@ Analyzed 500+ sales records to surface revenue trends and campaign performance. 
 
 ## Certifications
 
-| | |
-|---|---|
-| ☁️ | AWS Academy — Generative AI Foundations |
-| 🌐 | Cisco — CCNA: Enterprise Networking, Security & Automation |
-| ☕ | HackerRank — Java (Basic) |
-| 🗄️ | HackerRank — SQL (Advanced) |
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=sharmakhushi18&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sharmakhushi18&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=sharmakhushi18&color=0077ff&style=flat-square&label=Profile+Views)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:0077ff&height=80&section=footer" width="100%"/>
-
-</div>
+- ☁️ AWS Academy — Generative AI Foundations
+- 🌐 Cisco — CCNA: Enterprise Networking, Security & Automation
+- ☕ HackerRank — Java (Basic)
+- 🗄️ HackerRank — SQL (Advanced)
