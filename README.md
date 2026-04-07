@@ -1,109 +1,72 @@
-<h1 align="center">Hi, I'm Khushi Sharma 👋</h1>
+<div align="center">
 
-<p align="center">
-  <b>Full Stack Developer · Java + Spring Boot + React</b><br>
-  <i>Final Year ECE · LNCT Bhopal</i>
-</p>
+# Khushi Sharma
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/khushissharma"><img src="https://img.shields.io/badge/LinkedIn-khushissharma-0077B5?style=flat&logo=linkedin"/></a>
-  <a href="https://x.com/sharmaa_khushii"><img src="https://img.shields.io/badge/Twitter-sharmaa__khushii-1DA1F2?style=flat&logo=twitter"/></a>
-  <a href="mailto:sharmakhushi99631@gmail.com"><img src="https://img.shields.io/badge/Gmail-sharmakhushi99631-D14836?style=flat&logo=gmail&logoColor=white"/></a>
-</p>
+**Java Backend Developer · Spring Boot · PostgreSQL · React**
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-khushissharma-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/khushissharma)
+[![Twitter](https://img.shields.io/badge/Twitter-sharmaa__khushii-1DA1F2?style=flat&logo=twitter)](https://x.com/sharmaa_khushii)
+[![Gmail](https://img.shields.io/badge/Gmail-sharmakhushi99631-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sharmakhushi99631@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel)](https://your-portfolio-link.com)
 
-### 👩‍💻 About Me
-
-- 🔧 Building production-grade systems with **Java, Spring Boot & React**
-- 🌐 Deployed full-stack apps on **Render + Vercel + Docker**
-- 🧠 Strong in **DSA** — 287 problems solved on LeetCode (50 Hard)
-- 🎯 Actively looking for **Java Backend / Full Stack roles**
-- 📍 India · Open to remote & on-site
+</div>
 
 ---
 
-### 🔭 Currently Working On
+I build backend systems with Java & Spring Boot — focused on clean architecture, transactional correctness, and real deployments.
 
-Improving **SkyTrack** with:
-- 🔐 JWT-based authentication — role-based access for Admin & Passenger
-- 📡 WebSocket integration — push live flight updates without polling
-- 📊 Advanced dashboard analytics — delay trends, cancellation stats
+Currently looking for **Java Backend Developer / Full Stack roles**.
 
 ---
 
-### 🛠️ Tech Stack
+### Skills
 
-**Backend**
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
-![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=flat&logo=spring&logoColor=white)
-![JPA/Hibernate](https://img.shields.io/badge/JPA_Hibernate-59666C?style=flat&logo=hibernate&logoColor=white)
+**Backend** — Java 17, Spring Boot 3.x, Spring Data JPA, Hibernate, REST API Design, Transaction Management, State Machine Logic, JavaMailSender
 
-**Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+**Frontend** — React.js, JavaScript ES6+, HTML5, CSS3
 
-**Database**
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+**Database** — PostgreSQL, MySQL, JDBC
 
-**Tools & DevOps**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apache-maven&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
+**Tools** — Docker, Git, Maven, Postman, Render, Vercel
 
 ---
 
-### 🚀 Featured Projects
+### Projects
 
-**✈️ SkyTrack — Flight Delay Management System**
-> Designed a flight management system with state-driven status transitions
-> (`ON_TIME → DELAYED → CANCELLED`) triggering automated passenger alerts.
-> Implemented transactional booking logic ensuring seat consistency under concurrent requests.
-> React frontend with whitelist-based booking validation and silent auto-refresh.
+**✈️ SkyTrack — Flight Delay Alert System** &nbsp; [![Live](https://img.shields.io/badge/Live-46E3B7?style=flat)](https://flight-delay-frontend-seven.vercel.app) [![Backend](https://img.shields.io/badge/Backend-181717?style=flat&logo=github)](https://github.com/sharmakhushi18/flight-delay-alert-api) [![Frontend](https://img.shields.io/badge/Frontend-181717?style=flat&logo=github)](https://github.com/sharmakhushi18/skytrack-frontend)
 
-[![API](https://img.shields.io/badge/Backend_Repo-181717?style=flat&logo=github)](https://github.com/sharmakhushi18/flight-delay-alert-api)
-[![UI](https://img.shields.io/badge/Frontend_Repo-181717?style=flat&logo=github)](https://github.com/sharmakhushi18/skytrack-frontend)
-[![Live](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat&logo=vercel&logoColor=black)](https://flight-delay-frontend-seven.vercel.app)
-`Spring Boot` `State Machine` `React` `MySQL` `Docker` `JPA`
+Event-driven Spring Boot API — when a flight is delayed or cancelled, alerts are auto-generated for all booked passengers and real emails are sent instantly.
+
+- State machine enforces valid flight status transitions at the service layer
+- `@Transactional` ensures status change + alert creation rollback together on failure
+- Email wrapped in try-catch — alert DB persistence guaranteed even if SMTP fails
+- Deployed on Render with PostgreSQL (Neon) via Docker
+
+`Spring Boot` `PostgreSQL` `React` `JPA` `Docker` `JavaMailSender` `State Machine`
 
 ---
 
-**🛫 Airport Management System**
-> Console-based Java system with strict DAO architecture and raw JDBC.
-> Duplicate seat validation enforced at the database level — not just application level.
-> Booking cancellation auto-restores seat count maintaining data consistency.
+**🛫 Airport Management System** &nbsp; [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/sharmakhushi18/AirportManagementSystem)
 
-[![Repo](https://img.shields.io/badge/GitHub_Repo-181717?style=flat&logo=github)](https://github.com/sharmakhushi18/AirportManagementSystem)
+Console-based Java app with full CRUD using raw JDBC and strict DAO architecture.
+
+- Duplicate seat validation enforced at DB level via unique constraints
+- Booking cancellation auto-restores seat count — no inconsistent state
+
 `Java` `JDBC` `MySQL` `DAO Pattern` `OOP`
 
 ---
 
-**📊 College Placement Dashboard**
-> Analyzed 200+ student placement records using SQL and Excel.
-> Built a Power BI KPI dashboard revealing CSE graduates earn 2× the average package vs other branches.
+**📊 College Placement Dashboard** &nbsp; [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/sharmakhushi18/College-Placement-Dashboard)
 
-[![Repo](https://img.shields.io/badge/GitHub_Repo-181717?style=flat&logo=github)](https://github.com/sharmakhushi18/College-Placement-Dashboard)
+Analyzed 200+ student placement records. Built Power BI dashboard — CSE graduates earn 2× average package vs other branches.
+
 `SQL` `Excel` `Power BI` `Data Analysis`
 
 ---
 
-### 📊 LeetCode Stats
+### LeetCode
 
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/sharmaa_khushii?theme=dark&font=Fira+Code&ext=heatmap" alt="LeetCode Stats"/>
-</p>
+**287 problems** · **50 Hard** · Rating **1,556** · Top **30.72%** · Max Streak **62 days**
 
-> **287 problems solved** · **50 Hard** · Contest Rating **1,556** · Top **30.72%** · Max Streak **62 days**
-
----
-
-
-<p align="center">
-  <i>Open to Java Backend Developer & Full Stack roles — let's connect!</i>
-</p>
+[![LeetCode](https://img.shields.io/badge/LeetCode-sharmaa__khushii-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/sharmaa_khushii)
