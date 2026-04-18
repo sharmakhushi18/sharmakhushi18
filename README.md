@@ -17,7 +17,7 @@
 
 ## About
 
-Final-year ECE student at LNCT Bhopal building backend systems with **Java & Spring Boot** — focused on clean architecture, transactional correctness, and APIs that work in production.
+Backend-focused ECE student | Java & Spring Boot | Building scalable, production-ready APIs with clean architecture.
 
 Every project I ship has real DB constraints, real transactions, and real error handling. Not just `localhost` code.
 
