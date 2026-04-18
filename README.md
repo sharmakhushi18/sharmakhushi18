@@ -98,14 +98,7 @@ Console-based Java app with full CRUD for passengers, flights, and bookings usin
 
 ---
 
-## Certifications
 
-- **Cisco CCNA** — Networking & Security
-- **AWS Generative AI Foundations** — Cloud-based AI/ML & Generative AI
-- **HackerRank SQL (Advanced)** — Validated SQL proficiency
-- **HackerRank Java (Basic)** — Core Java programming
-
----
 
 <div align="center">
 
