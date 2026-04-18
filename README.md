@@ -162,8 +162,6 @@ public class KhushiSharma extends BackendDeveloper {
 
 </div>
 
----
-
 <div align="center">
 
 ### 💬 Currently open to Java Backend · Full Stack · Remote & On-site roles
