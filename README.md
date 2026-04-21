@@ -28,7 +28,9 @@ public class KhushiSharma extends BackendDeveloper {
     String[] strengths  = {
         "Clean layered architecture",
         "Transactional integrity & ACID compliance",
-        "Production deployments with Docker + CI/CD",
+        "JWT Authentication & Spring Security",
+        "Concurrent systems with pessimistic locking",
+        "Production deployments with Docker + Render",
         "AI/ML API integration (Groq · Llama 3.3 70B)"
     };
 
@@ -46,6 +48,8 @@ public class KhushiSharma extends BackendDeveloper {
 
 ![Java](https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Spring JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
@@ -68,6 +72,7 @@ public class KhushiSharma extends BackendDeveloper {
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
@@ -85,6 +90,7 @@ public class KhushiSharma extends BackendDeveloper {
 ### ✈️ SkyTrack — Flight Delay Alert System
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-46E3B7?style=for-the-badge)](https://flight-delay-frontend-seven.vercel.app)
+[![API Docs](https://img.shields.io/badge/📚_Swagger_Docs-85EA2D?style=for-the-badge)](https://flight-delay-alert-api.onrender.com/swagger-ui/index.html)
 [![Backend](https://img.shields.io/badge/Backend_Repo-181717?style=for-the-badge&logo=github)](https://github.com/sharmakhushi18/flight-delay-alert-api)
 [![Frontend](https://img.shields.io/badge/Frontend_Repo-181717?style=for-the-badge&logo=github)](https://github.com/sharmakhushi18/skytrack-frontend)
 
@@ -92,12 +98,16 @@ public class KhushiSharma extends BackendDeveloper {
 
 | What I built | Why it matters |
 |---|---|
+| JWT Authentication + Spring Security | Stateless auth — all endpoints secured with role-based access |
+| Pessimistic locking on seat booking | Two users booking same seat simultaneously → only one succeeds |
+| DB-level unique constraint on `flight_id + seatNumber` | Race condition handled at DB level — bulletproof |
 | State machine for flight status transitions | Invalid transitions rejected **before** DB is touched |
 | `@Transactional` on status + alert creation | Both rollback atomically on failure — no partial state |
 | Email in try-catch, alert persists regardless | DB guarantee even if SMTP server is down |
+| Swagger UI for interactive API docs | Recruiters test APIs directly in browser — no Postman needed |
 | Docker + Render + Neon PostgreSQL | Real production deployment, not localhost |
 
-`Spring Boot` `PostgreSQL` `React` `JPA/Hibernate` `Docker` `JavaMailSender` `State Machine` `Render` `Vercel`
+`Spring Boot` `Spring Security` `JWT` `PostgreSQL` `React` `JPA/Hibernate` `Docker` `Swagger` `JavaMailSender` `State Machine` `Render` `Vercel`
 
 ---
 
