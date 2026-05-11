@@ -112,26 +112,6 @@ Event-driven API that auto-sends passenger alerts on flight delays/cancellations
 
 </td>
 <td width="50%" valign="top">
-
-### 🤖 AI Resume Reviewer
-**`React 19` `Vite` `Tailwind` `Groq API` `Llama 3.3 70B`**
-
-Paste resume + job description → instant AI feedback — ATS score, keyword gaps, match analysis, and improvement tips.
-
-**Key Engineering:**
-- 🧠 Groq API (Llama 3.3 70B) — structured JSON analysis, not just free-form text
-- 🎯 ATS score + keyword gap in a single API call
-- 🚀 React 19 + Vite + Tailwind v4 — deployed on Vercel with CI/CD
-- 💡 Solves a real problem — most people apply without knowing their resume gap
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-FF6B35?style=for-the-badge)](https://resume-reviewer-nu.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/sharmakhushi18/resume-reviewer)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 💳 PayFlow Wallet API
 **`Spring Boot` `Microservices` `Java` `PostgreSQL`**
 
