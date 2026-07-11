@@ -1,19 +1,23 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF6B35&height=180&section=header&text=Khushi%20Sharma&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20%7C%20Spring%20Boot%20%E2%80%A2%20PostgreSQL%20%E2%80%A2%20React&descAlignY=58&descSize=17&animation=fadeIn" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=FF6B35&center=true&vCenter=true&width=650&lines=Java+%2F+Spring+Boot+Backend+Engineer;Microservices+%C2%B7+Concurrency+%C2%B7+PostgreSQL;Building+systems+that+work+in+production;Data+Analytics+%7C+SQL+%7C+KPI+Dashboards)](https://git.io/typing-svg)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height=170&section=header&text=Khushi%20Sharma&fontSize=52&fontColor=ffffff&fontAlignY=42&desc=Backend%20Engineer%20%E2%80%94%20systems%20that%20hold%20up%20under%20concurrency&descAlignY=62&descSize=16" />
 
 <br/>
 
-🟢 **Open to opportunities — Backend Engineer / Full Stack Developer · Immediately Available**
+```
+> whoami
+Backend Engineer — Java · Spring Boot · PostgreSQL
+Focus: transactional correctness, concurrency, event-driven systems
+
+> status
+🟢 Open to opportunities — immediately available
+```
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khushissharma)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B35?style=for-the-badge&logo=vercel&logoColor=white)](https://sharmakhushi18.github.io/portfolio)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sharmakhushi6203@gmail.com)
-[![Resume](https://img.shields.io/badge/Resume-181717?style=for-the-badge&logo=googledocs&logoColor=white)](https://sharmakhushi18.github.io/portfolio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khushissharma)
+[![Portfolio](https://img.shields.io/badge/Portfolio-141414?style=flat-square&logo=vercel&logoColor=white)](https://sharmakhushi18.github.io/portfolio)
+[![Email](https://img.shields.io/badge/Email-141414?style=flat-square&logo=gmail&logoColor=white)](mailto:sharmakhushi6203@gmail.com)
 
 </div>
 
@@ -21,14 +25,13 @@
 
 ## About Me
 
-I'm a recent B.Tech (ECE) graduate building **backend systems that hold up under real concurrency** — not just CRUD apps. My projects deliberately mix locking strategies (pessimistic vs. optimistic), event-driven design, and clean DAO/service layering, because that's the part of backend work I actually enjoy solving.
+I build **backend systems that hold up under real concurrency** — not just CRUD apps. My projects deliberately reason through locking strategies, event-driven design, and clean service layering, because that's the part of backend work I actually enjoy solving.
 
 I also work on the analytics side — SQL-heavy dashboards for risk and supply-chain reporting — which gives me a rare mix: I can build the system **and** reason about the business metrics it should produce.
 
 ```java
 public class KhushiSharma extends BackendEngineer {
 
-    String college   = "LNCT Bhopal — B.Tech ECE, Class of 2026";
     String location  = "Bhopal, India";
     String status    = "Open to opportunities · Immediately available";
 
@@ -144,7 +147,7 @@ public class KhushiSharma extends BackendEngineer {
 ```
 Roles       Backend Engineer · Full Stack Developer
             Data Analyst · Business/Operations Analyst
-Available   Immediately (B.Tech ECE, LNCT Bhopal — Class of 2026)
+Available   Immediately
 Looking for Teams that care about code quality and ship real systems —
             not just localhost demos.
 Contact     sharmakhushi6203@gmail.com
