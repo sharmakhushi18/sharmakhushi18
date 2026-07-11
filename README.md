@@ -6,7 +6,7 @@
 
 <br/>
 
-🟢 **Open to opportunities — Backend Engineer / Full Stack Developer · Available mid-2026**
+🟢 **Open to opportunities — Backend Engineer / Full Stack Developer · Immediately Available**
 
 <br/>
 
@@ -21,16 +21,16 @@
 
 ## About Me
 
-I'm a final-year B.Tech (ECE) student building **backend systems that hold up under real concurrency** — not just CRUD apps. My projects deliberately mix locking strategies (pessimistic vs. optimistic), event-driven design, and clean DAO/service layering, because that's the part of backend work I actually enjoy solving.
+I'm a recent B.Tech (ECE) graduate building **backend systems that hold up under real concurrency** — not just CRUD apps. My projects deliberately mix locking strategies (pessimistic vs. optimistic), event-driven design, and clean DAO/service layering, because that's the part of backend work I actually enjoy solving.
 
 I also work on the analytics side — SQL-heavy dashboards for risk and supply-chain reporting — which gives me a rare mix: I can build the system **and** reason about the business metrics it should produce.
 
 ```java
 public class KhushiSharma extends BackendEngineer {
 
-    String college   = "LNCT Bhopal — B.Tech ECE, 2026";
+    String college   = "LNCT Bhopal — B.Tech ECE, Class of 2026";
     String location  = "Bhopal, India";
-    String status    = "Open to opportunities · Available mid-2026";
+    String status    = "Open to opportunities · Immediately available";
 
     String[] coreStack = {
         "Java 17", "Spring Boot 3.x", "Spring Security + JWT",
@@ -91,7 +91,7 @@ public class KhushiSharma extends BackendEngineer {
 | Project | What it does | Notable engineering | Tech | Links |
 |---|---|---|---|---|
 | **SkyTrack — Flight Delay Alert System** | Event-driven API that auto-notifies passengers on flight delays, with a React dashboard on top. | State-machine-driven flight status, **pessimistic locking** to prevent race conditions on seat/status updates | Spring Boot · React · PostgreSQL · Docker | [Live](https://flight-delay-frontend-seven.vercel.app) · [API Docs](https://flight-delay-alert-api.onrender.com/swagger-ui/index.html) · [Repo](https://github.com/sharmakhushi18/flight-delay-alert-api) |
-| **PayFlow — Wallet Microservices** | Digital wallet system split into 4 microservices: auth, wallet, transactions, notifications. | **Optimistic locking** to prevent double-debit under concurrent transaction requests | Spring Boot · Microservices · Redis · Docker | [Repo](https://github.com/sharmakhushi18/payflow-wallet-api) |
+| **PayFlow — Wallet Microservices** | Digital wallet system split into 4 microservices: auth, wallet, transactions, notifications. | **Pessimistic locking** on wallet balance — prioritizes correctness over throughput, since a wrong balance is far costlier than a queued request | Spring Boot · Microservices · Redis · Docker | [Repo](https://github.com/sharmakhushi18/payflow-wallet-api) |
 | **AI Resume Reviewer** | Scores resumes against job descriptions, flags keyword gaps and suggests fixes. | LLM-powered scoring pipeline via Groq API | React · Vite · Tailwind · Groq API | [Repo](https://github.com/sharmakhushi18/resume-reviewer) |
 | **Airport Management System** | Console-based system for managing passengers, flights, and bookings. | Raw JDBC (no ORM), DAO architecture, seat-conflict validation enforced at the DB level | Java · JDBC · MySQL | [Repo](https://github.com/sharmakhushi18/AirportManagementSystem) |
 
@@ -102,7 +102,7 @@ public class KhushiSharma extends BackendEngineer {
 | **Operational Risk Analytics Dashboard** | End-to-end risk reporting for a banking-style dataset. | 600 records · 9 KPIs · SLA compliance tracking · escalation analysis · 9 SQL queries | Excel · SQL · Python | [Repo](https://github.com/sharmakhushi18/operational-risk-analytics-dashboard) |
 | **Supply Chain Analytics Dashboard** | Logistics performance dashboard for vendor and shipment tracking. | 550 shipment records · vendor scoring · OTD tracking · stockout alerts · monthly trends | Excel · SQL · Python | [Repo](https://github.com/sharmakhushi18/supply-chain-logistics-analytics) |
 
-> A note on the locking choice: SkyTrack uses pessimistic locking because delayed-flight status updates are rare but must never conflict; PayFlow uses optimistic locking because wallet transactions are frequent and mostly non-conflicting. Picking the right one per system, not defaulting to one everywhere, is the point.
+> A note on the locking choice: both SkyTrack (seat booking) and PayFlow (wallet balance) use pessimistic locking deliberately — in both cases, a wrong result (double-booked seat, incorrect balance) is far more costly than a briefly queued request. Combined with a DB-level unique constraint as the final safety net in SkyTrack, this reflects the same underlying judgment call: when correctness is non-negotiable, block first, optimize throughput later.
 
 ---
 
@@ -135,16 +135,7 @@ public class KhushiSharma extends BackendEngineer {
 
 ---
 
-## Achievements
 
-| Achievement | Year | By |
-|---|:-:|---|
-| GSSoC 2026 — Selected Contributor | 2026 | GirlScript Foundation |
-| Campus Ambassador — Kshitij | 2025 | IIT Kharagpur |
-| HackerRank SQL — Advanced Certified | 2025 | HackerRank |
-| AWS Academy: Generative AI Foundations | 2025 | Amazon Web Services |
-| Triple CCNA Certified | 2024 | Cisco |
-| NCC 'B' Certificate | 2024 | NCC India |
 
 ---
 
@@ -153,7 +144,7 @@ public class KhushiSharma extends BackendEngineer {
 ```
 Roles       Backend Engineer · Full Stack Developer
             Data Analyst · Business/Operations Analyst
-Available   Mid-2026 (Final Year — LNCT Bhopal, B.Tech ECE)
+Available   Immediately (B.Tech ECE, LNCT Bhopal — Class of 2026)
 Looking for Teams that care about code quality and ship real systems —
             not just localhost demos.
 Contact     sharmakhushi6203@gmail.com
